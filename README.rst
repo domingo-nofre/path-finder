@@ -9,7 +9,7 @@ on a standard 8x8 chessboard.
 
 ## Installation
 
-All the requirements.txt file you will find all necessary dependencies
+In the requirements.txt file you will find all necessary dependencies
 
 ## Usage
 
@@ -18,14 +18,18 @@ python pathFinder.py
 
 The program reads instructions from standard input (stdin).
 Instructions are lines (separated by newlines) in the following format:
+
 D4 G7
+
 D4 D5
 
 
 The first of the space-separated values is the knight's starting position, the second is the knight's target position.
 For each line in the input, the program prints (to standard out) the shortest path it found.
 So for the example above, it should print e.g.:
+
 D4 F5 G7
+
 D4 E2 F4 D5
 
 
